@@ -3,9 +3,9 @@ quantidade = int(input("Digite a quantidade que você pegou -> "))
 preço_unitário = int(input("Digite o valor do produto que você pegou -> "))
 total = (quantidade * preço_unitário)
 
-desconto1 = (total - total / 0.02)
-desconto2 = (total - total / 0.03)
-desconto3 = (total - total / 0.05)
+desconto1 = (total - total * 0.02)
+desconto2 = (total - total * 0.03)
+desconto3 = (total - total * 0.05)
 
 if quantidade <= 5:
     print(f"Valor total -> {total}")
